@@ -1,0 +1,22 @@
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+  
+  50% {
+    scale: 1 1.4;
+  }
+  
+  to {
+    rotate: 360deg;
+  }
+}
+
+#blob {
+  translate: -50% -50%;
+  animation: rotate 20s infinite;
+}
+
+/* h1 {
+translate: -50% -50%;
+} */
