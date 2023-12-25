@@ -36,6 +36,18 @@ function WelcomePage() {
         </Link>
       </button>
 
+      <button className="
+        absolute z-20  mt-[40rem] -ml-[10rem]
+        font-['Inter'] font-bold text-white hover:text-green-300
+        border-green-300 border-2 rounded-lg
+        px-5 py-3
+        shadow-xl shadow-green-300
+      ">
+        <Link href="/weather">
+          <a>Погода</a>
+        </Link>
+      </button>
+
       <MovingBlobBackground />
     </div>
   )

@@ -74,7 +74,7 @@ const initialState = {
             }
 
             if (selected) {
-              values.color = '#000'
+              values.color = '#86efad'
               return
             }
           }
@@ -137,7 +137,7 @@ const initialState = {
             }
 
             if (selected) {
-              values.color = '#000'
+              values.color = '#86efad'
               return
             }
           }
